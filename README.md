@@ -11,14 +11,14 @@ At the moment what is supported is the following:
 - variable (value defined at runtime)
 - integer/float litteral
 - string litteral
-- && ( and )
-- || (or)
-- == (equality)
-- != (not equality)
-- > (greater than)
-- < (lesser than)
-- >= (greater or equal)
-- <= (lesser or equal)
+- `&&` ( and )
+- `||` (or)
+- `==` (equality)
+- `!=` (not equality)
+- `>` (greater than)
+- `<` (lesser than)
+- `>=` (greater or equal)
+- `<=` (lesser or equal)
 
 Other operator will probably be added later.
 
