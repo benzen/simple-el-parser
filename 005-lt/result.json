@@ -1,6 +1,8 @@
 {
-  "LT": [
-    {"VARIABLE": "a"},
-    {"VARIABLE": "b"}
+  "type":"lt",
+  "value":"<",
+  "children": [
+    {"type":"var", "value":"a"},
+    {"type":"var", "value":"b"}
   ]
 }

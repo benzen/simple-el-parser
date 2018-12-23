@@ -1,6 +1,8 @@
 {
-  "EQ": [
-    {"VARIABLE": "a"},
-    {"LITTERAL": "key"}
+  "type":"eq",
+  "value":"==",
+  "children": [
+    {"type":"var", "value":"a"},
+    {"type":"string", "value":"key"}
   ]
 }

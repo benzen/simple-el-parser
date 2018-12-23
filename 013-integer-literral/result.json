@@ -3,6 +3,6 @@
   "value":"==",
   "children": [
     {"type":"var", "value":"a"},
-    {"type":"var", "value":"b"}
+    {"type":"int", "value":"1"}
   ]
 }

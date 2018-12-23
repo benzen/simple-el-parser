@@ -1,6 +1,8 @@
 {
-  "GT": [
-    {"VARIABLE": "a"},
-    {"VARIABLE": "b"}
+  "type":"gt",
+  "value":">",
+  "children": [
+    {"type":"var", "value":"a"},
+    {"type":"var", "value":"b"}
   ]
 }

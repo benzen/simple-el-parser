@@ -1,6 +1,8 @@
 {
-  "LTE": [
-    {"VARIABLE": "a"},
-    {"VARIABLE": "b"}
+  "type":"lte",
+  "value":"<=",
+  "children": [
+    {"type":"var", "value":"a"},
+    {"type":"var", "value":"b"}
   ]
 }

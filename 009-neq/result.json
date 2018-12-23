@@ -1,6 +1,8 @@
 {
-  "NEQ": [
-    {"VARIABLE": "a"},
-    {"VARIABLE": "b"}
+  "type":"neq",
+  "value":"!=",
+  "children": [
+    {"type":"var", "value":"a"},
+    {"type":"var", "value":"b"}
   ]
 }

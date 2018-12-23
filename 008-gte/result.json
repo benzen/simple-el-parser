@@ -1,6 +1,8 @@
 {
-  "GTE": [
-    {"VARIABLE": "a"},
-    {"VARIABLE": "b"}
+  "type":"gte",
+  "value":">=",
+  "children": [
+    {"type":"var", "value":"a"},
+    {"type":"var", "value":"b"}
   ]
 }

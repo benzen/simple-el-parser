@@ -1,6 +1,7 @@
 {
-  "OR": [
-    {"VARIABLE": "a"},
-    {"VARIABLE": "b"}
+  "type": "or",
+  "children": [
+    {"type": "var", "value": "a"},
+    {"type": "var", "value": "b"}
   ]
 }

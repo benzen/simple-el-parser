@@ -1,5 +1,5 @@
 {
-  "NOT": [
-    {"VARIABLE": "a"}
-  ]
+  "type": "not",
+  "value": "!",
+  "children": {"type": "var", "value": "a"}
 }
