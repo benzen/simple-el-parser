@@ -1,6 +1,8 @@
 {
-  "AND": [
-    {"VARIABLE": "a"},
-    {"VARIABLE": "b"}
+  "type": "and",
+  "value": "&&",
+  "children": [
+    {"type": "var", "value": "a"},
+    {"type": "var", "value": "b"}
   ]
 }
