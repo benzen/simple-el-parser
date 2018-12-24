@@ -3,6 +3,6 @@
   "value":"==",
   "children": [
     {"type":"var", "value":"a"},
-    {"type":"string", "value":"key"}
+    {"type":"string", "value":"\"key\""}
   ]
 }
