@@ -1,0 +1,22 @@
+{
+  "type": "and",
+  "value": "&&",
+  "children": [
+    {
+      "type":"eq",
+      "value":"==",
+      "children": [
+        {"type": "var", "value":"a"},
+        {"type": "int", "value": "1"}
+      ]
+    },
+    {
+      "type":"eq",
+      "value":"==",
+      "children": [
+         {"type": "var", "value": "b"},
+         {"type": "int", "value": "2"}
+      ]
+    }
+  ]
+}
