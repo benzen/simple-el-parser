@@ -1,0 +1,50 @@
+{
+  "type":"or",
+  "value":"||",
+  "children": [
+    {
+      "type":"var",
+      "value": "c",
+    },
+    {
+      "type":"or",
+      "value":"||",
+      "children": [
+        {
+          "type":"and",
+          "value":"&&",
+          "children": [
+            {
+              "type":"var",
+              "value":"a"
+            },
+            {
+              "type": "not",
+              "value":"!",
+              "children":[
+                {
+                  "type":"var",
+                  "value":"b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "eq",
+          "value": "==",
+          "children": [
+            {
+              "type": "var",
+              "value":"d"
+            },
+            {
+              "type": "string",
+              "value":"\"321\""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
