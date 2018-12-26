@@ -4,7 +4,7 @@
   "children": [
     {
       "type":"var",
-      "value": "c",
+      "value": "c"
     },
     {
       "type":"or",
@@ -21,25 +21,23 @@
             {
               "type": "not",
               "value":"!",
-              "children":[
-                {
-                  "type":"var",
-                  "value":"b"
-                }
-              ]
+              "children":{
+                "type":"var",
+                "value":"b"
+              }
             }
           ]
         },
         {
-          "type": "eq",
-          "value": "==",
-          "children": [
+          "type":"eq",
+          "value":"==",
+          "children":[
             {
-              "type": "var",
+              "type":"var",
               "value":"d"
             },
             {
-              "type": "string",
+              "type":"string",
               "value":"\"321\""
             }
           ]
