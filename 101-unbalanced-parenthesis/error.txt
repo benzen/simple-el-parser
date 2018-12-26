@@ -1,0 +1,3 @@
+Unbalanced parenthesis starting on character 0
+(a && b
+^
