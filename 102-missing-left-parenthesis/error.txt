@@ -1,0 +1,3 @@
+Unbalanced parenthesis ending on character 6
+a && b)
+      ^

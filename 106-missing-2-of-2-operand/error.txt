@@ -1,0 +1,3 @@
+Missing operands arround '&&' on character 0
+&&
+^^
