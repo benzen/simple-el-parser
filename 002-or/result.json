@@ -1,8 +1,9 @@
 {
   "type": "or",
   "value": "||",
+  "start": 2,
   "children": [
-    {"type": "var", "value": "a"},
-    {"type": "var", "value": "b"}
+    {"type": "var", "value": "a", "start": 0},
+    {"type": "var", "value": "b", "start": 5}
   ]
 }

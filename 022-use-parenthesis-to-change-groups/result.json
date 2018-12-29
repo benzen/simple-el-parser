@@ -1,29 +1,36 @@
 {
   "type":"or",
   "value":"||",
+  "start": 2,
   "children": [
     {
       "type":"var",
-      "value": "c"
+      "value": "c",
+      "start": 0
     },
     {
       "type":"or",
       "value":"||",
+      "start": 14,
       "children": [
         {
           "type":"and",
           "value":"&&",
+          "start": 8,
           "children": [
             {
               "type":"var",
-              "value":"a"
+              "value":"a",
+              "start": 6
             },
             {
               "type": "not",
               "value":"!",
+              "start": 11,
               "children":{
                 "type":"var",
-                "value":"b"
+                "value":"b",
+                "start": 12
               }
             }
           ]
@@ -31,14 +38,17 @@
         {
           "type":"eq",
           "value":"==",
+          "start": 19,
           "children":[
             {
               "type":"var",
-              "value":"d"
+              "value":"d",
+              "start": 17
             },
             {
               "type":"string",
-              "value":"\"321\""
+              "value":"\"321\"",
+              "start": 22
             }
           ]
         }

@@ -1,21 +1,24 @@
 {
   "type": "and",
   "value": "&&",
+  "start": 9,
   "children": [
     {
       "type":"eq",
       "value":"==",
+      "start": 3,
       "children": [
-        {"type": "var", "value":"a"},
-        {"type": "int", "value": "1"}
+        {"type": "var", "value":"a", "start": 1},
+        {"type": "int", "value": "1", "start": 6}
       ]
     },
     {
       "type":"eq",
       "value":"==",
+      "start": 15,
       "children": [
-         {"type": "var", "value": "b"},
-         {"type": "int", "value": "2"}
+         {"type": "var", "value": "b", "start": 13},
+         {"type": "int", "value": "2", "start": 18}
       ]
     }
   ]

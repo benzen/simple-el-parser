@@ -1,5 +1,6 @@
 {
   "type": "not",
   "value": "!",
-  "children": {"type": "var", "value": "a"}
+  "start": 0,
+  "children": {"type": "var", "value": "a", "start": 1}
 }

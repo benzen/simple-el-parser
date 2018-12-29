@@ -1,8 +1,9 @@
 {
   "type":"eq",
   "value":"==",
+  "start": 2,
   "children": [
-    {"type":"var", "value":"a"},
-    {"type":"string", "value":"\"key\""}
+    {"type":"var", "value":"a", "start": 0},
+    {"type":"string", "value":"\"key\"", "start": 5}
   ]
 }
