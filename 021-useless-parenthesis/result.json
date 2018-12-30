@@ -9,7 +9,7 @@
       "start": 3,
       "children": [
         {"type": "var", "value":"a", "start": 1},
-        {"type": "int", "value": "1", "start": 6}
+        {"type": "int", "value": 1, "start": 6}
       ]
     },
     {
@@ -18,7 +18,7 @@
       "start": 15,
       "children": [
          {"type": "var", "value": "b", "start": 13},
-         {"type": "int", "value": "2", "start": 18}
+         {"type": "int", "value": 2, "start": 18}
       ]
     }
   ]
