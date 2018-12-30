@@ -4,6 +4,6 @@
   "start": 2,
   "children": [
     {"type":"var", "value":"a", "start": 0},
-    {"type":"string", "value":"\"key\"", "start": 5}
+    {"type":"string", "value":"key", "start": 5}
   ]
 }
