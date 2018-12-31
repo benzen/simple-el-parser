@@ -20,8 +20,18 @@ At the moment what is supported is the following:
 - `<`: lesser than
 - `>=`: greater or equal
 - `<=`: lesser or equal
+- `(..)`: left and right parenthesis
 
 Other operator will probably be added later.
+
+Here are constructs used in js that won't be reproduced
+
+- Function call
+- control flow statement
+- Rexep
+- Bitwise operators
+- comma
+- void operator
 
 Origin
 ----------
