@@ -1,0 +1,9 @@
+{
+  "type": "and",
+  "value": "&&",
+  "start": 2,
+  "children": [
+    {"type": "var", "value": "a", "start": 0},
+    {"type": "var", "value": "b.c", "start": 5}
+  ]
+}
