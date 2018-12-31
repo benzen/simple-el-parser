@@ -8,17 +8,18 @@ This test suite will serve as a reference point.
 
 The construct allowed by this parser are intentionally reduced.
 At the moment what is supported is the following:
-- variable (value defined at runtime)
-- integer/float litteral
-- string litteral
-- `&&` ( and )
-- `||` (or)
-- `==` (equality)
-- `!=` (not equality)
-- `>` (greater than)
-- `<` (lesser than)
-- `>=` (greater or equal)
-- `<=` (lesser or equal)
+- `abc` or `abc.def`: variable (value defined at runtime)
+- `42`: integer/float litteral
+- `3.14`: float literral
+- `"Dudette"`: string litteral
+- `&&`:  logical and
+- `||`:  logical or
+- `==`:  equality
+- `!=`: inequality
+- `>` : greater than
+- `<`: lesser than
+- `>=`: greater or equal
+- `<=`: lesser or equal
 
 Other operator will probably be added later.
 
@@ -27,3 +28,11 @@ Origin
 
 At first this project was created for magery (https://github.com/caolan/magery) a templating system which is language agnotic.
 This module would work on expression parsing, and magery will do what ever is usefull to create a function/interpret it based on the results.
+
+Why does it only produce an AST ?
+--------------------------------------------------------------------------------
+
+Since the produce will be used inside a templating system the way the compiled
+expression is used is not up to the parser.
+
+This part will be up to the templating system.
